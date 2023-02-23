@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="display-container">
+        <div class="current-score">
+          <h2 class="score">Current score :</h2>
+        </div>
+        <div>
+          <h2 class="rolled">Rolled:</h2>
+        </div>
+        <div class="attempts">
+          <h2 class="attempt">Attempts :</h2>
+        </div>
+        <div class="display">
+            <div class="display-box"></div>
+        <button type="button" class="play-button" onclick="clicked()">
+            Play
+        </div>
+        
+      </div>
+      <div class="stat-container">
+        <h2 class="level">Level :</h2>
+        <h2 class="target">Target :</h2>
+        <h2 class="max-attempt">Max Attempt :</h2>
+      </div>
+      <div id="alert-box">
+        <h2 class="win-box">You Won</h2>
+        <h2 class="level-box">Level 1</h2>
+        <button class="restart-button" onclick="restart()">
+          Play Again
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
